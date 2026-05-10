@@ -5,7 +5,7 @@ from excepciones import ClienteInvalidoError, ReservaError
 
 def ejecutar_operaciones():
     clientes = [
-        Cliente("Ana", "ana@mail.com"),
+        Cliente("leo", "leo@mail.com"),
         Cliente("", "correo_invalido"),  # Error
     ]
 

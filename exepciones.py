@@ -1,8 +1,7 @@
-class ClienteInvalidoError(Exception):
+class ClienteInvalidoError(exception):
+    """Error cuando los datos del cliente son inválidos."""
     pass
 
-class ServicioNoDisponibleError(Exception):
-    pass
-
-class ReservaError(Exception):
+class ReservaInvalidaError(exception):
+    """Error cuando la reserva es incorrecta."""
     pass
